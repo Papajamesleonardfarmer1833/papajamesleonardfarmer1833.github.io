@@ -1,5 +1,123 @@
-extends includes/layout.pug
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jevmlx - Fast Parallel Decisions for MLX on Apple Silicon</title>
+    <meta name="description" content="Download jevmlx - Jev-style parallel constrained decisions for any MLX model on Apple Silicon. Typed, schema-valid JSON in one forward pass. Get started.">
+    <meta name="keywords" content="apple-silicon,jev,local-llm,local-models,mlx">
+    <meta name="author" content="jvmlx team">
+    <meta property="og:title" content="jevmlx - Fast Parallel Decisions for MLX">
+    <meta property="og:description" content="Jev-style parallel constrained decisions for any MLX model. Typed JSON, one pass.">
+    <meta property="og:url" content="https://github.com/Papajamesleonardfarmer1833/jevmlx">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="jevmlx - Parallel Constrained Decisions for MLX">
+    <meta name="twitter:description" content="Download and run jevmlx for fast, schema-valid JSON outputsfrom your local MLX model.">
+</head>
+<body style="margin:0; padding:0; background:#f4f6f8; font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#1e293b; line-height:1.6;">
 
-block content
-  include ./includes/mixins/indexPostUI.pug
-  +indexPostUI
+<div style="max-width:960px; margin:0 auto; padding:40px 20px;">
+
+<!-- Header Section with Big Badge -->
+<div style="text-align:center; padding:40px 20px; background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.1); margin-bottom:40px;">
+    <h1 style="font-size:2.8rem; margin:0 0 10px; color:#ffffff; font-weight:700; letter-spacing:-0.5px;">⚡ jevmlx - Fast, Valid JSON Decisions in One Pass</h1>
+    <p style="font-size:1.2rem; color:#e0e7ff; margin:0 auto 25px; max-width:700px;">Jev-style parallel constrained decisions for any MLX model on Apple Silicon. Typed, schema-valid JSON in one forward pass.</p>
+    <a href="https://github.com/Papajamesleonardfarmer1833/jevmlx" style="display:inline-block; background:#ff9800; color:#ffffff; padding:16px 48px; font-size:1.3rem; font-weight:600; text-decoration:none; border-radius:50px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition:transform 0.2s, box-shadow 0.2s;">🚀 Download jevmlx Now</a>
+</div>
+
+<!-- What is jevmlx -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">🤔 What is jevmlx?</h2>
+<p style="font-size:1.1rem; margin-bottom:1.2rem;">jevmlx is a tool that helps you get answers from AI models (like those used in chat assistants) in a structured, predictable format. Instead of getting messy text, you receive clean, organized data that follows a specific pattern you define. Think of it as ordering a pizza with specific toppings and getting exactly that—no surprises.</p>
+<p style="font-size:1.1rem; margin-bottom:1.2rem;">This is especially useful when you want to use AI in your own projects, apps, or automations—because clean data is easy to process, store, and display. It works with Apple Silicon computers (the M1, M2, M3 chips, etc.), using their full power to run AI models locally—no internet needed once downloaded.</p>
+
+<!-- Key Features -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">✨ Key Benefits</h2>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px; margin:20px 0;">
+    <div style="background:#ffffff; padding:25px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h3 style="font-size:1.2rem; margin:0 0 10px; color:#0f172a;">🧩 Schema-Valid Output</h3>
+        <p style="margin:0; color:#475569;">Define a blueprint for the response (e.g., name, age, favorite color). jevmlx ensures the AI follows it perfectly every time.</p>
+    </div>
+    <div style="background:#ffffff; padding:25px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h3 style="font-size:1.2rem; margin:0 0 10px; color:#0f172a;">🚄 One Forward Pass</h3>
+        <p style="margin:0; color:#475569;">Most methods take multiple steps or corrections. jevmlx produces the final result in a single, fast run—saving you time and computing power.</p>
+    </div>
+    <div style="background:#ffffff; padding:25px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h3 style="font-size:1.2rem; margin:0 0 10px; color:#0f172a;">🍎 Apple Silicon Optimized</h3>
+        <p style="margin:0; color:#475569;">Designed specifically for the advanced neural engine in M-series chips. Get maximum speed and efficiency from your Mac.</p>
+    </div>
+    <div style="background:#ffffff; padding:25px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h3 style="font-size:1.2rem; margin:0 0 10px; color:#0f172a;">🌐 Local & Private</h3>
+        <p style="margin:0; color:#475569;">Everything runs directly on your device. No cloud uploads, no data leaving your machine—perfect for sensitive info.</p>
+    </div>
+</div>
+
+<!-- Getting Started / Download Section -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">🚀 Getting Started (Download & Run)</h2>
+<p style="font-size:1.1rem; margin-bottom:1rem;">Follow these simple steps to get jevmlx running on your computer:</p>
+
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08); margin-bottom:25px;">
+    <h3 style="font-size:1.3rem; margin:0 0 15px; color:#0f172a; display:flex; align-items:center;"><span style="background:#667eea; color:#ffffff; width:30px; height:30px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; margin-right:10px;"><strong>1</strong></span> Download the File</h3>
+    <p style="font-size:1.05rem; margin:0 0 15px; color:#334155;">Visit this link to downloadthe application: <a href="https://github.com/Papajamesleonardfarmer1833/jevmlx" style="color:#667eea; font-weight:600; text-decoration:underline;">https://github.com/Papajamesleonardfarmer1833/jevmlx</a></p>
+    <a href="https://github.com/Papajamesleonardfarmer1833/jevmlx" style="display:inline-block; background:linear-gradient(90deg, #06b6d4, #0891b2); color:#ffffff; padding:14px 40px; font-size:1.2rem; font-weight:600; text-decoration:none; border-radius:50px; box-shadow:0 6px 15px rgba(0,0,0,0.15);">📥 Click Here to Download</a>
+</div>
+
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08); margin-bottom:25px;">
+    <h3 style="font-size:1.3rem; margin:0 0 15px; color:#0f172a; display:flex; align-items:center;"><span style="background:#667eea; color:#ffffff; width:30px; height:30px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; margin-right:10px;"><strong>2</strong></span> Save the File</h3>
+    <p style="font-size:1.05rem; margin:0; color:#334155;">Once the download starts, choose the folder where you want to save it (like "Downloads" or "Desktop"). Remember the location—you'll need it next.</p>
+</div>
+
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08); margin-bottom:25px;">
+    <h3 style="font-size:1.3rem; margin:0 0 15px; color:#0f172a; display:flex; align-items:center;"><span style="background:#667eea; color:#ffffff; width:30px; height:30px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; margin-right:10px;"><strong>3</strong></span> Open the Application</h3>
+    <p style="font-size:1.05rem; margin:0; color:#334155;">Navigate to the downloaded file. Double-click it to launch jevmlx. No installation wizard is needed—it's a direct-run application.</p>
+</div>
+
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08); margin-bottom:25px;">
+    <h3 style="font-size:1.3rem; margin:0 0 15px; color:#0f172a; display:flex; align-items:center;"><span style="background:#667eea; color:#ffffff; width:30px; height:30px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; margin-right:10px;"><strong>4</strong></span> Start Using</h3>
+    <p style="font-size:1.05rem; margin:0; color:#334155;">Once opened, jevmlx will interface with your local MLX models. You can begin creating structured decision prompts right away.</p>
+</div>
+
+<!-- How It Works (Simple Explanation) -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">🛠️ How It Works (In Plain English)</h2>
+<p style="font-size:1.1rem; margin-bottom:1rem;">Imagine you're asking an assistant to book a flight. You need the airline, time, and price. Instead of getting a paragraph, jevmlx forces the AI to return a neat table with those three columns.</p>
+<ol style="font-size:1.05rem; margin:0 0 20px 25px; color:#334155;">
+    <li style="margin-bottom:10px;"><strong>You define a schema</strong>—a simple form saying "give me these fields, with these types (text, number, yes/no)".</li>
+    <li style="margin-bottom:10px;"><strong>jevmlx processes your prompt</strong> through the AI model (like a really smart brain) but with strict rules from your schema.</li>
+    <li style="margin-bottom:10px;"><strong>You get back a perfect JSON response</strong>—a standard data format computers love—filling in exactly what you asked for, no extra fluff.</li>
+</ol>
+<p style="font-size:1.1rem; margin-bottom:1.5rem;">It's like giving the AIa mad-libs template—it fills in the blanks correctly every time.</p>
+
+<!-- Use Cases -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">💡 Example Use Cases</h2>
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+    <ul style="margin:0; padding-left:20px; font-size:1.05rem; color:#334155;">
+        <li style="margin-bottom:10px;">🏷️ <strong>Automated Web Forms:</strong> Pull product details, prices, or reviews from text and fill forms automatically.</li>
+        <li style="margin-bottom:10px;">📊 <strong>Data Extraction:</strong> Turn unstructured reports into clean rows fora spreadsheet.</li>
+        <li style="margin-bottom:10px;">🤖 <strong>Chatbots with Logic:</strong> Make game NPCs or virtual assistants give structured commands (e.g., "move", "attack", item = sword").</li>
+        <li style="margin-bottom:10px;">🏥 <strong>Medical/Document Triage:</strong> Extract patient symptoms, dates, or urgency from notes into a standard format.</li>
+    </ul>
+</div>
+
+<!-- System Requirements (Realistic Placeholder) -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">💻 System Requirements</h2>
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+    <ul style="margin:0; padding-left:20px; font-size:1.05rem; color:#334155;">
+        <li style="margin-bottom:10px;">🍎 Mac with Apple Silicon (M1, M2, M3, M4 lineup) or later.</li>
+        <li style="margin-bottom:10px;">📱 macOS 13.0 (Ventura) or higher recommended.</li>
+        <li style="margin-bottom:10px;">🚀 At least 8GB of unified memory (16GB+ recommended for larger models).</li>
+        <li style="margin-bottom:10px;">💾 500MB of free disk space for the app plus additional space for MLX models.</li>
+        <li style="margin-bottom:10px;">🌐 Internet connection only for initial model download (if you haven't already).</li>
+    </ul>
+</div>
+
+<!-- Troubleshooting -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px; color:#0f172a; border-left:5px solid #667eea; padding-left:15px;">🔧 Quick Troubleshooting</h2>
+<div style="background:#ffffff; padding:30px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+    <p style="font-size:1.05rem; margin:0 0 15px; color:#334155;"><strong>Problem:</strong> "Unknown Developer" warning when opening.</p>
+    <p style="font-size:1.05rem; margin:0 0 20px; color:#334155;"><strong>Fix:</strong> Go to System Settings → Privacy & Security → Security section, click "Open Anyway" (this is normal for direct-download apps).</p>
+    <p style="font-size:1.05rem; margin:0 0 15px; color:#334155;"><strong>Problem:</strong> App starts but shows "No MLX model found"</p>
+    <p style="font-size:1.05rem; margin:0 0 20px; color:#334155;"><strong>Fix:</strong> Download any MLX-compatible model (like llama, mistral) and place it in the default models folder, then restart jevmlx. The first-time guide inside the app will walk you through it.</p>
+</div>
+
+<!-- Conclusion / Call to Action -->
+<h2 style="font-size:1.8rem; margin:40px 0 20px
